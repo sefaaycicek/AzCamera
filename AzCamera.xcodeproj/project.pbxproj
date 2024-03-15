@@ -13,6 +13,7 @@
 		DC643E572BA4427900BC1155 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DC643E562BA4427900BC1155 /* Base */; };
 		DC643E592BA4427A00BC1155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC643E582BA4427A00BC1155 /* Assets.xcassets */; };
 		DC643E5C2BA4427A00BC1155 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DC643E5B2BA4427A00BC1155 /* Base */; };
+		DC643E642BA4473F00BC1155 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC643E632BA4473F00BC1155 /* CameraHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DC643E582BA4427A00BC1155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC643E5B2BA4427A00BC1155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC643E5D2BA4427A00BC1155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC643E632BA4473F00BC1155 /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DC643E4F2BA4427900BC1155 /* AppDelegate.swift */,
 				DC643E512BA4427900BC1155 /* SceneDelegate.swift */,
 				DC643E532BA4427900BC1155 /* ViewController.swift */,
+				DC643E632BA4473F00BC1155 /* CameraHandler.swift */,
 				DC643E552BA4427900BC1155 /* Main.storyboard */,
 				DC643E582BA4427A00BC1155 /* Assets.xcassets */,
 				DC643E5A2BA4427A00BC1155 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC643E542BA4427900BC1155 /* ViewController.swift in Sources */,
+				DC643E642BA4473F00BC1155 /* CameraHandler.swift in Sources */,
 				DC643E502BA4427900BC1155 /* AppDelegate.swift in Sources */,
 				DC643E522BA4427900BC1155 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +299,7 @@
 				DEVELOPMENT_TEAM = Y7653CXCKR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AzCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Resim çekelim izin ver";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +328,7 @@
 				DEVELOPMENT_TEAM = Y7653CXCKR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AzCamera/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Resim çekelim izin ver";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
